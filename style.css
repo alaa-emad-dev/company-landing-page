@@ -98,3 +98,5 @@ html{scroll-behavior:smooth;}
 .social-row a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin:0 6px;border-radius:50%;background:cadetblue;color:#fff;font-size:20px;text-decoration:none;}
 .social-row a:hover{background:#2f6f6f;color:#fff;}
 @media (max-width:767px){html,body{overflow-x:hidden;}}
+
+@media (max-width:767px){form>.row{margin-left:0;margin-right:0;}.clck{padding-left:0;padding-right:0;}.btnlgn{width:100%;}}@media (max-width:767px){form>.row{margin-left:0;margin-right:0;}.clck{padding-left:0;padding-right:0;}.btnlgn{width:100%;}}
