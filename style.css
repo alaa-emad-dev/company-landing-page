@@ -97,3 +97,4 @@ html{scroll-behavior:smooth;}
 .social-row{margin:10px 0 30px;}
 .social-row a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin:0 6px;border-radius:50%;background:cadetblue;color:#fff;font-size:20px;text-decoration:none;}
 .social-row a:hover{background:#2f6f6f;color:#fff;}
+@media (max-width:767px){html,body{overflow-x:hidden;}}
