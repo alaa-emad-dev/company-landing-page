@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <div class="scl cntr">
+            <p style="font-size: 30px;border-radius: 40%;background-color: red;"><a href="#"><i class="fa fa-facebook"></i></a></p>
+            <p><a href="mailto:alaaalpp2015@gmail.com"><i class="fa fa-google"></i></a></p>
+            <p><a href="#"><i class="fa fa-instagram"></i></a></p>
+            
+            
+        </div>
+        <form>
+        <div class="container-fluid">
+            <div class="row fxd">
+                <div class="col-xs-2 cntr lgo">
+                   <img src="img/logo.svg" alt="TechShop" class="nav-logo"/>
+                </div>
+
+                <div class="col-xs-8 cntr">
+                    <ul class="mainmnu">
+                        <li class="items"><a href="home.html">home</a></li>
+                        <li class="items"><a href="#cnts">Aboutus</a></li>
+                        <li class="items"><a href="#offers">offer</a></li>
+                        <li class="items"><a href="#products">product</a></li>
+                        <li class="items"><a href="home.html#contact">contact</a></li>
+                        <li class="items"><a href="home.html#products">Cart (<span class="nav-count">0</span>)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-2 clck cntr" >
+                    <input type="button" value="login" class="btnlgn"/>
+                    <div class="login-box">
+                        <input type="text"/><br>
+                        <input type="password"/><br>
+                        <input type="button" value="Signin" />
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="row" style="margin-top:70px;">
+                    <div class="col-xs-12 cntrimg">
+                        <img  src="img/hero.svg" alt="" class="myimgbg"/>
+                        <div class="txtabvimg cntr">
+                            <h1>Alaa Emad</h1>
+                            <p>Front-end Developer</p>
+                            <p><a class="hero-mail" href="mailto:alaaalpp2015@gmail.com">alaaalpp2015@gmail.com</a></p>
+                            <p><a href="#offers" class="hero-btn">See Our Offers</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 cntr" id="cnts">
+            <h1>Our Company</h1>
+            <p>TechShop sells monitors and laptops with clear prices and simple explanations.</p>
+            <p><a href="about.html">Read more about us</a></p>
+        </div>
+    </div>
+
+    <div class="row" id="offers">
+        <div class="col-xs-6">
+            <img src="1.jpg" style="width: 100%; height: 300px;"/>   
+        </div>
+        <div class="col-xs-6">
+           <h1>Office Setup Offer</h1>
+           <p>Up to 50% off monitors this month.</p>
+           <p>Price 200 LE <del>300 LE</del></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <h1>Free Delivery</h1>
+            <p>Free delivery inside Cairo and Giza on orders above 500 LE.</p>
+        </div>
+        <div class="col-xs-6">
+            <img src="1.jpg" style="width: 100%; height: 300px;"/> 
+        </div>
+    </div>
+</div>
+
+<!-- (React) The 8 copy-pasted product cards were replaced by this one div.
+     js/products.js builds the cards, the search box and the cart counter inside it. -->
+<div class="container">
+    <div id="products-root"></div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cntr">
+            <div class="contact-panel">
+                <h1>Alaa Emad</h1>
+                <p>Front-end Developer</p>
+                <p>HTML, CSS, Bootstrap, JavaScript, React</p>
+                <p><a href="mailto:alaaalpp2015@gmail.com">alaaalpp2015@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cntct cntr" id="contact">
+            <input type="text" id="c-name" placeholder="Your name"/><br>
+            <input type="text" id="c-email" placeholder="Your email"/><br>
+            <input type="text" id="c-msg" placeholder="Message"/><br>
+            <input type="button" id="c-send" value="send now"/>
+            <p id="c-status"></p>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+ 
+        <div class="col-xs-12 cntr">
+            <p>copy right @ <a href="mailto:alaaalpp2015@gmail.com">Alaa Emad</a> | <a href="mailto:alaaalpp2015@gmail.com">alaaalpp2015@gmail.com</a></p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-instagram"></i>
+
+        </div>
+    </div>
+</div>
+</form>
+<button type="button" id="to-top" title="Back to top">&uarr;</button>
+<script src="js/vendor/react.production.min.js"></script>
+<script src="js/vendor/react-dom.production.min.js"></script>
+<script src="js/main.js"></script>
+<!-- React app: several small files, loaded in this order (data first, App last) -->
+<script src="js/shop/data.js"></script>
+<script src="js/shop/storage.js"></script>
+<script src="js/shop/Toolbar.js"></script>
+<script src="js/shop/ProductCard.js"></script>
+<script src="js/shop/ProductModal.js"></script>
+<script src="js/shop/CartPanel.js"></script>
+<script src="js/shop/Checkout.js"></script>
+<script src="js/shop/App.js"></script>
+<script src="js/shop/index.js"></script>
+    </body>
+</html>
