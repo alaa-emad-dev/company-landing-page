@@ -94,6 +94,6 @@ html{scroll-behavior:smooth;}
 .cntct{padding:50px 20px;}
 .cntct input[type=text]{width:80%;max-width:360px;padding:8px 10px;margin-bottom:10px;border:1px solid #ccc;border-radius:4px;}
 .cntct input[type=button]{background:cadetblue;color:#fff;border:none;padding:8px 24px;border-radius:4px;cursor:pointer;}
-.social-row{margin:10px 0 20px;}
-.social-row a{display:inline-block;width:40px;height:40px;line-height:40px;margin:0 6px;border-radius:50%;background:cadetblue;color:#fff;font-size:20px;text-align:center;text-decoration:none;}
+.social-row{margin:10px 0 30px;}
+.social-row a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin:0 6px;border-radius:50%;background:cadetblue;color:#fff;font-size:20px;text-decoration:none;}
 .social-row a:hover{background:#2f6f6f;color:#fff;}
