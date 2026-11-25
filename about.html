@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2 cntr lgo">
+                   <img src="img/logo.svg" alt="TechShop" class="nav-logo"/>
+                </div>
+
+                <div class="col-xs-8 cntr">
+                    <ul class="mainmnu">
+                        <li class="items"><a href="home.html">home</a></li>
+                        <li class="items"><a href="about.html">Aboutus</a></li>
+                        <li class="items"><a href="home.html#offers">offer</a></li>
+                        <li class="items"><a href="home.html#products">product</a></li>
+                        <li class="items"><a href="home.html#contact">contact</a></li>
+                        <li class="items"><a href="home.html#products">Cart (<span class="nav-count">0</span>)</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-2 clck cntr" >
+                    <input type="button" value="login" class="btnlgn"/>
+                    <div class="login-box">
+                        <input type="text"/><br>
+                        <input type="password"/><br>
+                        <input type="button" value="Signin" />
+                    </div>
+                </div>
+            </div>
+
+</div>
+
+<div class="row" style="margin-top:50px;">
+    <div class="col-xs-12">
+        <img src="img/banner.svg" alt="TechShop banner" style="width: 100%; height:300px; object-fit:cover;"/>
+    </div>
+</div>
+
+<!-- New: interactive About section (js/about.js): tabs, counters, FAQ -->
+<div class="container about-box">
+    <div class="about-tabs">
+        <button type="button" class="tab-btn active" data-tab="mission">Our mission</button>
+        <button type="button" class="tab-btn" data-tab="team">Team</button>
+        <button type="button" class="tab-btn" data-tab="faq">FAQ</button>
+    </div>
+    <div class="tab-panel active" id="tab-mission">
+        <h2>Our mission</h2>
+        <p>We sell good screens at fair prices and we explain every product in simple words.</p>
+    </div>
+    <div class="tab-panel" id="tab-team">
+        <h2>Team</h2>
+        <p><strong>Alaa Emad</strong> - Front-end developer (this page).<br><a href="mailto:alaaalpp2015@gmail.com">alaaalpp2015@gmail.com</a></p>
+    </div>
+    <div class="tab-panel" id="tab-faq">
+        <h2>FAQ</h2>
+        <div class="faq-item"><button type="button" class="faq-q">How long is delivery?</button><div class="faq-a">2 to 4 working days inside Cairo and Giza.</div></div>
+        <div class="faq-item"><button type="button" class="faq-q">Can I return a product?</button><div class="faq-a">Yes, within 14 days if it is unused.</div></div>
+        <div class="faq-item"><button type="button" class="faq-q">How can I pay?</button><div class="faq-a">Cash or card on delivery.</div></div>
+    </div>
+
+    <div class="row about-stats cntr">
+        <div class="col-xs-4"><div class="stat" data-target="1200">0</div><p>Happy customers</p></div>
+        <div class="col-xs-4"><div class="stat" data-target="8">0</div><p>Products</p></div>
+        <div class="col-xs-4"><div class="stat" data-target="5">0</div><p>Years</p></div>
+    </div>
+</div>
+
+<div class="row">
+ 
+    <div class="col-xs-12 cntr">
+        <p>copy right @ <a href="mailto:alaaalpp2015@gmail.com">Alaa Emad</a> | <a href="mailto:alaaalpp2015@gmail.com">alaaalpp2015@gmail.com</a></p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-google"></i>
+        <i class="fa fa-instagram"></i>
+
+    </div>
+</div>
+        </form>
+<script src="js/main.js"></script>
+<script src="js/about.js"></script>
+    </body>
+</html>
